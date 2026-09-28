@@ -9,3 +9,17 @@ Se implementó la lista simplemente enlazada y la clase Reserva. El método de c
 ### Módulo de Historial (Kleber)
 
 Se implementó la lista doblemente enlazada (`ListaDoble`) y la clase modelo `Movimiento`. El módulo permite realizar recorridos bidireccionales (hacia adelante y hacia atrás) y cuenta con un método de filtrado por tipo de movimiento (`reservas`, `devoluciones` o `mantenimiento`) que consulta y genera sublistas con las coincidencias exactas sin alterar la integridad ni modificar los datos originales del historial.
+
+### Módulo de Mantenimiento y Pila de Deshacer (Shirley Yanchatipan)
+
+Se implementó el módulo de mantenimiento de proyectores y una estructura de pila para registrar las acciones y permitir deshacer el último cambio realizado.
+
+**Aportes:**
+- Implementación de la clase `Pila`.
+- Implementación de la clase `AccionMantenimiento`.
+- Registro de acciones de mantenimiento.
+- Cambio del estado del proyector a mantenimiento.
+- Funcionalidad para deshacer acciones mediante una pila LIFO.
+- Validaciones relacionadas con el mantenimiento y las horas de uso de la lámpara.
+
+**Commit:** `Agrega mantenimiento y pila de deshacer`
